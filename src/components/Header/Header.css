@@ -1,0 +1,106 @@
+.header-root {
+    width: 100%;
+}
+.header-nav-welcome-container {
+    background-color: #f2f2f2;
+    height: 38px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+.header-nav-welcome-content {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: #666;
+}
+.header-nav-title-container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+.header-nav-title-content {
+    max-width: 1400px;
+    width: 100%;
+    height: 64px;
+    margin: 0 auto;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+}
+.header-nav-title-content > div {
+    height: 100%;
+    margin-left: 1rem;
+}
+.header-nav-title1 {
+    flex: 1;
+    width: 300px;
+}
+.header-nav-title-dep {
+    height: 50%;
+    font-size: 23px;
+    font-weight: bold;
+}
+.header-nav-title-sus {
+    height: 50%;
+    font-size: 23px;
+}
+.search-input {
+    height: 40px;
+    width: 200px;
+    border: 1px solid #aaa;
+    outline: none;
+    box-sizing: border-box;
+}
+.search-btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #00adef;
+}
+.search-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.header-navbar-container {
+    background-color: #4d4d4d;
+    height: 38px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+.header-navbar-content {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 100%;
+    font-weight: 600;
+}
+.header-navbar-content > span {
+    padding: 0 0.5rem;
+    border-left: 1px solid white;
+    display: inline-block;
+    height: 100%;
+    line-height: 38px;
+}
+.header-navbar-content > span:hover {
+    color: #4d4d4d;
+    background-color: white;
+    cursor: pointer;
+}
+.header-navbar-content > span:last-child {
+    border-right: 1px solid white;
+}

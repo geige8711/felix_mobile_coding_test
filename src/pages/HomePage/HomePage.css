@@ -1,0 +1,113 @@
+.header-digital-container {
+    background-color: white;
+    margin: 3rem 0;
+    height: 38px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+.header-digital-content {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-weight: 600;
+}
+.header-digital-first {
+    font-size: 36px;
+    padding: 0.5rem 0;
+    padding-right: 7rem;
+    border-right: 1px solid #00adef;
+}
+.header-digital-action {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #444;
+}
+.digital-number {
+    font-size: 36px;
+    color: black;
+}
+.goals-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+a {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.goal {
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+}
+.goal-image {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+}
+.goal-hover {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.goal:hover .goal-hover {
+    display: block;
+    z-index: 100;
+}
+.goal:hover img {
+    z-index: -1;
+}
+.goal-hover {
+    box-sizing: border-box;
+    padding: 1rem;
+}
+.goal-number {
+    font-size: 36px;
+    font-weight: bold;
+}
+.goal-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+.goal-desc {
+    font-size: 16px;
+    padding: 0.5rem 0 1rem;
+    border-bottom: 1px solid #aaa;
+}
+.goal-digital-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem 0;
+}
+.goal-digital-action {
+    margin-top: 0.3rem;
+}
+.goal-digital-number {
+    font-size: 26px;
+    font-weight: bold;
+}
+.goal-digital-action {
+    font-size: 10px;
+    font-weight: bold;
+}
+.more-info-btn {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
