@@ -6,7 +6,7 @@ import { goals } from '../../mockData/goals'
 
 const HomePage = () => {
     return (
-        <div>
+        <div className="home-root">
             <div className="header-digital-container">
                 <div className="header-digital-content">
                     <div className="header-digital-first">THE 17 GOALS</div>
@@ -31,7 +31,7 @@ const HomePage = () => {
             </div>
             <div className="goals-container">
                 {goals.map((item, index) => (
-                    <Link to="/">
+                    <Link key={index} to={item.linkTo}>
                         <div
                             className="goal"
                             style={{
@@ -89,12 +89,22 @@ const HomePage = () => {
                             </div>
                             <img
                                 className="goal-image"
-                                src="https://sdgs.un.org/sites/default/files/goals/E_SDG_Icons-01.jpg"
+                                src={item.bottomImgUrl}
                                 alt=""
                             />
                         </div>
                     </Link>
                 ))}
+                <Link to="/">
+                    <div className="goal-last">
+                        <img
+                            src="https://sdgs.un.org/themes/custom/porto/assets/goals/global-goals.png"
+                            className="goal-image-last"
+                            alt="goal image"
+                        ></img>
+                        <div className="see-all">see all</div>
+                    </div>
+                </Link>
             </div>
         </div>
     )

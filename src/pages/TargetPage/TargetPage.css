@@ -1,0 +1,80 @@
+.banner-container {
+    background: linear-gradient(
+            90deg,
+            #407f46 68%,
+            rgba(76, 161, 70, 0.60828) 100%
+        ),
+        url(https://sdgs.un.org/themes/custom/porto/assets/goal-02.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    height: 20rem;
+}
+.banner-content {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 10px;
+    display: flex;
+    align-items: flex-start;
+    padding: 2rem;
+    flex-direction: column;
+    color: white;
+}
+.goals {
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+.goal-number {
+    color: #ddd;
+    font-size: 4rem;
+}
+.banner-title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.btn-action {
+    width: 6rem;
+    height: 2rem;
+    margin-right: 1rem;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    background: transparent;
+}
+.btn-action:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.target-goals-container {
+    width: 100%;
+}
+.target-goals-content {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 10px;
+    display: flex;
+    align-items: flex-start;
+    padding: 2rem;
+    flex-direction: column;
+}
+.goal-title-req {
+    height: 5rem;
+    border: 1px solid #aaa;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+.goal-title-req:hover {
+    background: linear-gradient(
+            90deg,
+            #407f46 68%,
+            rgba(76, 161, 70, 0.60828) 100%
+        ),
+        url(https://sdgs.un.org/themes/custom/porto/assets/goal-02.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    color: white;
+}
