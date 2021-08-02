@@ -100,8 +100,8 @@ const HomePage = () => {
                         <img
                             src="https://sdgs.un.org/themes/custom/porto/assets/goals/global-goals.png"
                             className="goal-image-last"
-                            alt="goal image"
-                        ></img>
+                            alt="goal"
+                        />
                         <div className="see-all">see all</div>
                     </div>
                 </Link>
